@@ -58,7 +58,22 @@ Please install the required packages for smooth functioning of the tool by runni
 ## Evaluating the model 
 > python test.py -img_idx 12 
 
-1. `img_idx`​ is the validation image index. The value of ​`img_idx` ranges 0 - 23.  
+1. `img_idx`​ is the validation image index. The value of ​`img_idx` ranges 0 - 23.
 
+## Dataset Preparation
+> python data_prep.py
+
+1. It will take 5 images for training and 1 image for testing. 
+2. It will extract random patches of size 224 x 224 from each of the big size images.
+3. On randomly extracted patches, it will perform data-augmentation (Rotation, Flipping etc.)
+4. A single big size image will produce 5000 small patches for training. Hence, from 5 training images we will have 25000 images
+5. From a single test image, this code will extract non-overlapping 24 small patches. 
+
+## Training the U-Net model
+> python train.py
+
+1. The default ​ batch_size = 5 ​ (Set this according the capacity of your GPU RAM) 
+2. Learning Rate = 0.001
+3. Optimizer = ADAM
 
 
