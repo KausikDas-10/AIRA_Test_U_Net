@@ -52,7 +52,13 @@ the model wrt to each class on a validation data.
 *Fig. 3. Ground truth vs predicted results of a validation patch.*
 
 ## Pre-requisites
+Please install the required packages for smooth functioning of the tool by running
 > pip install -r requirements.txt
+
+## Evaluating the model 
+> python test.py -img_idx 12 
+
+1. 'img_idx'​ is the validation image index. The value of ​'img_idx'​ ranges 0 - 23.  
 
 
 
