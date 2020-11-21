@@ -32,7 +32,9 @@ This improvement of the classification performance of the proposed large size CN
 with limited training data, endorses the importance of the on the fly data augmentations, the 
 proposed loss function and proper settings of the free parameters.
 
-<img src="ref_figs/main_block_2.png">
+<img src="ref_figs/unet_loss_curve.png">
+
+*Fig. 1. Training and validation loss curve. Plot is the loss curve of entropy and dice loss combined.*
 
 We observe the loss curve starts fluctuating after the 8-th epochs on ward, due to high learning 
 rate (0.001). In order to solve this issue, we took the best validation model (that we found at 
@@ -40,3 +42,10 @@ epoch 8-th), and started the 2nd round of training with a low learning rate (0.0
 showcases the training and validation loss curve with the specified setting. This is significantly 
 better than the previous loss curve. Fig. 3 portrays the ground truth and the predicted output of 
 the model wrt to each class on a validation data.
+
+<img src="ref_figs/2nd_exp_unet_loss_curve.png">
+
+*Fig. 2. Loss curve with learning rate 0.00001.*
+
+<img src="ref_figs/class_wise_pred.png">
+*Fig. 3. Ground truth vs predicted results of a validation patch.*
