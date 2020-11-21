@@ -49,3 +49,8 @@ the model wrt to each class on a validation data.
 
 <img src="ref_figs/class_wise_pred.png">
 *Fig. 3. Ground truth vs predicted results of a validation patch.*
+
+## Pre-requisites
+- pip install -r requirements.txt 
+
+
