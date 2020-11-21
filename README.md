@@ -32,6 +32,7 @@ This improvement of the classification performance of the proposed large size CN
 with limited training data, endorses the importance of the on the fly data augmentations, the 
 proposed loss function and proper settings of the free parameters.
 
+<img src="ref_figs/main_block_2.png">
 
 We observe the loss curve starts fluctuating after the 8-th epochs on ward, due to high learning 
 rate (0.001). In order to solve this issue, we took the best validation model (that we found at 
