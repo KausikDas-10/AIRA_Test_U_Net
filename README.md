@@ -58,7 +58,7 @@ Please install the required packages for smooth functioning of the tool by runni
 ## Evaluating the model 
 > python test.py -img_idx 12 
 
-1. 'img_idx'​ is the validation image index. The value of ​'img_idx'​ ranges 0 - 23.  
+1. `img_idx`​ is the validation image index. The value of ​`img_idx` ranges 0 - 23.  
 
 
 
