@@ -76,4 +76,10 @@ Please install the required packages for smooth functioning of the tool by runni
 2. Learning Rate = 0.001
 3. Optimizer = ADAM
 
+## Code Author
+1. [Kausik Das](https://github.com/KausikDas-10/)
+
+## Help us to improve
+Let us know if you face any issues. You are always welcome to report new issues and bugs and also suggest further improvements. And if you like our work hit that star button on top. Enjoy :)
+
 
